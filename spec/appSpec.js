@@ -14,5 +14,9 @@ describe('Password validation', () => {
     it('Password should contain at least one number', () => {
       expect(isValidPassword('n0numb3r')).toBe(false);
     });
+    it('Password should not contain "IPL" in any case', () => {
+      expect(isValidPassword('IPL12345!')).toBe(false);
+      expect(isValidPassword('ipl12345!')).toBe(false);
+    });
 
 });
