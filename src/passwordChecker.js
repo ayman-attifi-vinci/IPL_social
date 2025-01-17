@@ -1,5 +1,3 @@
-function isValidPassword(password) {
-    return true;
-  }
-  
-  module.exports = isValidPassword;
+export default function isValidPassword(password) {
+  return true;
+}
