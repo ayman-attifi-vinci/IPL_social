@@ -8,5 +8,8 @@ describe('Password validation', () => {
     it('Password should be at least 8 characters long', () => {
       expect(isValidPassword('short')).toBe(false);
     });
+    it('Password should contain at least one special character', () => {
+      expect(isValidPassword('nosp3cial')).toBe(false);
+    });
 
 });
