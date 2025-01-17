@@ -11,5 +11,8 @@ describe('Password validation', () => {
     it('Password should contain at least one special character', () => {
       expect(isValidPassword('nosp3cial')).toBe(false);
     });
+    it('Password should contain at least one number', () => {
+      expect(isValidPassword('n0numb3r')).toBe(false);
+    });
 
 });
