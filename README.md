@@ -10,5 +10,7 @@
 
 ## Explication du Code
 Ce projet est un exemple de pipeline DevOps utilisant GitHub Actions pour l'intégration continue (CI). Le projet inclut une fonction de validation de mot de passe en JavaScript, testée avec TDD.
+
 Pour lancer les tests, utilisez la commande suivante :
+
 npm test
